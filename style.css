@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline:none;
+}
+body{
+    background-image: url(./time_zone_map-wallpaper-2560x1440.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.main{
+    margin-top: 10rem;
+    margin: auto;
+    margin-top: 10rem;
+    width:22rem;
+    gap: 2rem;
+    height:22rem;
+    padding: 2rem;
+    background-color:#A9A9A9 ;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px  rgb(0,0,0,0.3);
+}
+.heading{
+    text-align: center;
+    color:#ffffff;
+    font-size: 2rem;
+    margin-top: -10px;
+}
+.para{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+}
+.first,.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    width: ;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    background-color: rgb(130, 2, 249);
+    color: white;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 4px;
+}
+.btn-swap{
+    background-color: #E5E4E2;
+    margin-right: 2.5rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+option{
+    font-size: .5rem;
+    font-weight: 1000;
+}
+.amount1 {
+    background-color: #E5E4E2;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 1rem;
+    font-weight: 1000;
+}
+.amount2{
+    background-color: #E5E4E2;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 1rem;
+    font-weight: 1000;
+    
+}
+select{
+    padding: .5rem;
+    background-color: #E5E4E2;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 2px solid;
+}
+span{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color:black;
+}
+.second{
+    
+}
+@media screen and (max-width:420px) {
+    .main{
+        width: 70%;
+        height: 35rem;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: ;
+    }
+    .amount1,.amount2{        
+        background-color: #E5E4E2;
+        border-radius: 10px;
+        border: 2px solid;
+        font-size: 1rem;
+        font-weight: 1000;
+        padding: 1rem;
+        margin-top: .5rem;        
+    }
+    .first,.third{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    .btn-swap{
+        padding: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-left: 2rem;
+    }
+    
+}
